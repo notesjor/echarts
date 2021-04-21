@@ -83,28 +83,28 @@ export default {
     },
     series: {
         typeNames: {
-            pie: 'Tortendiagramm',
-            bar: 'Balkendiagramm',
-            line: 'Liniendiagramm',
+            pie: 'Torten-Diagramm',
+            bar: 'Balken-Diagramm',
+            line: 'Linien-Diagramm',
             scatter: 'Streudiagramm',
-            effectScatter: 'Welligkeits-Streudiagramm',
-            radar: 'Radar-Karte',
+            effectScatter: 'Streudiagramm (mit Effektstärke)',
+            radar: 'Radar-Diagramm',
             tree: 'Baum',
-            treemap: 'Baumkarte',
+            treemap: 'Treemap',
             boxplot: 'Boxplot',
-            candlestick: 'Kerzenständer',
-            k: 'K Liniendiagramm',
+            candlestick: 'Candlestick-Diagramm',
+            k: 'K Liniend-Diagramm',
             heatmap: 'Heatmap',
             map: 'Karte',
             parallel: 'Parallele Koordinatenkarte',
-            lines: 'Liniendiagramm',
-            graph: 'Beziehungsgrafik',
+            lines: 'Linien-Diagramm',
+            graph: 'Netzwerk-Graph',
             sankey: 'Sankey-Diagramm',
-            funnel: 'Trichterdiagramm',
-            gauge: 'Meßanzeige',
+            funnel: 'Trichter-Diagramm',
+            gauge: 'Messinstrument',
             pictorialBar: 'Bildlicher Balken',
             themeRiver: 'Thematische Flusskarte',
-            sunburst: 'Sonnenausbruch'
+            sunburst: 'Sunburst-Diagramm'
         }
     },
     aria: {
@@ -119,7 +119,7 @@ export default {
                 withoutName: ' mit Typ {seriesType}.'
             },
             multiple: {
-                prefix: '. Es besteht aus {seriesCount} Serienzählung.',
+                prefix: '. Es besteht aus {seriesCount} Datenpunkten.',
                 withName: ' Die Serie {seriesId} ist ein {seriesType} welcher {seriesName} darstellt.',
                 withoutName: ' Die {seriesId}-Reihe ist ein {seriesType}.',
                 separator: {
